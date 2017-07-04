@@ -34,18 +34,18 @@
 
 **jenkins配置** 
 
-* 打开网址 [localhost:8080](http://localhost:8080/login?from=%2F). 第一次打开,会进入到初次登录页面 ![](img/Jenkins注册页面.png)
+* 打开网址 [localhost:8080](http://localhost:8080/login?from=%2F). 第一次打开,会进入到初次登录页面 ![](../img/Jenkins注册页面.png)
 * 按照提示进入到路径文件夹下获取密码即可,也可以从刚刚终端输出位置找到默认密码即可 `/Users/用户名/.jenkins/secrets/initialAdminPassword` 
 
- ![](img/Jenkins终端密码提示.png)
+ ![](../img/Jenkins终端密码提示.png)
  后续步骤入下
- ![](img/Jenkins配置选择页.png)
- ![](img/Jenkins安装进度页.png)
+ ![](../img/Jenkins配置选择页.png)
+ ![](../img/Jenkins安装进度页.png)
  安装过程保证网络良好,如果卡着不动了,参考下面一个朋友的解决办法.
 
 * 就在上图所示的这一步下载的时候，基本上最后肯定有几个插件没有下载好，然后就停在这里不动了，不管怎么都不动，然后关机重启,重新进入.wars所在的文件路径，在终端执行`java -jar jenkins.war --httpPort=8888`命令才能在输入`http://localhost:8888`后能登录Jenkins登录界面，才跳到下图所示的管理员用户注册页面
 
- ![](img/Jenkins注册页面.png)
+ ![](../img/Jenkins注册页面.png)
  然后就是常规注册,不表!
  
 

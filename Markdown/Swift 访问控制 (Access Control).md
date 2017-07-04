@@ -11,7 +11,7 @@
 >Source file:
 >>就是每一个.swift文件,例如下图的四个source file
 >>
->>>![](img/Sourcefile.png)
+>>>![](../img/Sourcefile.png)
 >
 >访问控制,影响了module和module之间, module和Source file之间, Source file和Source file之间
 >
@@ -19,7 +19,7 @@
 >
 >**open  -->  public  -->  internal --> fileprivate -->private**
 >
->![Swift访问控制层级](img/Swift访问控制层级.png)
+>![Swift访问控制层级](../img/Swift访问控制层级.png)
 >
 >**open (开放,可重写,可集成)**
 >> 用于声明class以及class内所有的成员,层级最高,所有module和Source file 都可以获取到,且可以subclass和override这个被open修饰的class
