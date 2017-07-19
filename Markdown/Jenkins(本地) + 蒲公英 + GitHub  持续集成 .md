@@ -143,7 +143,7 @@ uKey="你的ukey,蒲公英获取"
 apiKey="蒲公英获取"
 #执行上传至蒲公英的命令
 echo "++++++++++++++upload+++++++++++++"
-curl -F "file=@/Users/tingbo/.jenkins/workspace/Jenkins_Demo/build/Jenkins_Demo.ipa" -F "uKey=${uKey}" -F "_api_key=${apiKey}"  http://www.pgyer.com/apiv1/app/upload
+curl -F "file=@/Users/用户名/.jenkins/workspace/Jenkins_Demo/build/Jenkins_Demo.ipa" -F "uKey=${uKey}" -F "_api_key=${apiKey}"  http://www.pgyer.com/apiv1/app/upload
 echo http://www.pgyer.com
 ```
 
